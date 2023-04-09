@@ -1,0 +1,54 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "KM",
+            "id": "8f3b6787-930d-4b1a-84eb-c498679b68ca",
+            "actions": [
+                {
+                    "name": "ZOOM",
+                    "type": "Value",
+                    "id": "1b816df8-4fe5-4503-9f23-b91d197066f9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CLICK",
+                    "type": "Value",
+                    "id": "374be4d9-94f8-4697-9ab7-c22e5ddf1235",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "643ad818-1e7e-4fb4-bb49-e8468bef1fd1",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "ZOOM",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce013be7-5cfc-4310-96cd-5b7a58f11bb6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CLICK",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
